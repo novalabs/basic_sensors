@@ -1,0 +1,5 @@
+{
+  "name": "basic_sensors",
+  "description": "A collection of simple core::utils::BasicSensor sensors",
+  "provider": "core"
+}

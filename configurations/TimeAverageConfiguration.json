@@ -1,0 +1,13 @@
+{
+  "name": "TimeAverageConfiguration",
+  "description": "TimeAverageConfiguration",
+  "namespace": "@",
+  "fields": [
+    {
+      "name": "period",
+      "description": "Period of average [ms]",
+      "type": "UINT16",
+      "size": 1
+    }
+  ]
+}
