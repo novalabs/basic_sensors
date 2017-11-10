@@ -55,7 +55,8 @@ public:
     }
 
     bool
-    configure() {    return isConfigured();
+    configure() {
+    	return isConfigured();
     };
 
     void
@@ -82,7 +83,7 @@ private:
 
 public:
     struct Converter {
-        using FROM = T;
+        using FROM = T2;
         using TO   = T3;
 
         static inline void
