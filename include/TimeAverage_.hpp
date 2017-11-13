@@ -45,7 +45,9 @@ public:
             return false;
         }
 
-        _data = _accumulator / _counter;
+        _data = _accumulator;
+        _data /= _counter;
+
         _accumulator = T();
         _counter     = 0;
 
