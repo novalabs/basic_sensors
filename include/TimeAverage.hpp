@@ -41,6 +41,8 @@ public:
         DataType& data
     );
 
+    void
+    reset();
 
     template <typename T>
     void

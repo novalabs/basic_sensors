@@ -23,9 +23,7 @@ TimeAverage::init()
 bool
 TimeAverage::start()
 {
-    _data = 0.0f;
-    _accumulator = 0.0f;
-    _counter     = 0;
+	reset();
     return true;
 }
 
@@ -64,5 +62,13 @@ TimeAverage::get(
 {
     data = _data;
 }
+
+void
+TimeAverage::reset() {
+    _data = 0.0f;
+    _accumulator = 0.0f;
+    _counter     = 0;
+}
+
 }
 }

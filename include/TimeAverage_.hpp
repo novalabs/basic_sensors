@@ -24,9 +24,7 @@ public:
 
     bool
     start(){
-        _data = T2();
-        _accumulator = T();
-        _counter     = 0;
+        reset();
         return true;
     }
 
@@ -66,6 +64,12 @@ public:
         data = _data;
     }
 
+    void
+	reset() {
+        _data = T2();
+        _accumulator = T();
+        _counter     = 0;
+    }
 
     template <typename TT>
     void
