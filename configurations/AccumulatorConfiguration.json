@@ -1,0 +1,13 @@
+{
+  "name": "AccumulatorConfiguration",
+  "description": "AccumulatorConfiguration",
+  "namespace": "@",
+  "fields": [
+    {
+      "name": "period",
+      "description": "Period [ms]",
+      "type": "UINT16",
+      "size": 1
+    }
+  ]
+}
