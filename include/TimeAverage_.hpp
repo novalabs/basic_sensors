@@ -34,7 +34,6 @@ public:
         return true;
     }
 
-
     bool
     stop() {return true;}
 
@@ -64,6 +63,11 @@ public:
     configure() {
     	return isConfigured();
     };
+
+    uint32_t
+	count() {
+    	return _counter;
+    }
 
     void
     get(
